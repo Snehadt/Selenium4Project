@@ -1,5 +1,6 @@
 package com.pages;
 
+import com.driver.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,6 +12,7 @@ public class BasePage {
 
     protected WebDriver driver;
     protected WebDriverWait wait;
+
 
     public BasePage(WebDriver driver){
         this.driver = driver;

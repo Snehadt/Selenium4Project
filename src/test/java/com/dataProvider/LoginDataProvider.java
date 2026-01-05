@@ -5,7 +5,9 @@ import com.dataUtils.ExcelDataUtility;
 import com.dataUtils.JsonDataUtility;
 import org.pojos.User;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 import org.testng.annotations.DataProvider;
 
@@ -18,12 +20,28 @@ public class LoginDataProvider {
     }
 
     @DataProvider(name = "LoginCSVDataProvider")
-    public Iterator<User> csvDataProvider(){
-        return CsvDataUtility.csvreader("login-file.csv");
+    public Iterator<Object[]> csvDataProvider(){
+        Iterator<User> userIterator =
+        CsvDataUtility.csvreader("login-file.csv");
+        List<Object[]> wrappedData = new ArrayList<>();
+
+        while (userIterator.hasNext()) {
+            wrappedData.add(new Object[]{userIterator.next()});
+        }
+
+        return wrappedData.iterator();
     }
 
     @DataProvider(name = "LoginExcelDataProvider")
-    public Iterator<User> excelDataProvider(){
-        return ExcelDataUtility.excelReader("login-excel.xlsx");
+    public Iterator<Object[]> excelDataProvider(){
+        Iterator<User> userIterator =
+                ExcelDataUtility.excelReader("login-excel.xlsx");
+
+        List<Object[]> wrappedData = new ArrayList<>();
+
+        while (userIterator.hasNext()) {
+            wrappedData.add(new Object[]{userIterator.next()});
+        }
+        return wrappedData.iterator();
     }
 }

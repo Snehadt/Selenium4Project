@@ -2,6 +2,7 @@ package com.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.configReader.ConfigReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -17,6 +18,11 @@ public class LoginPage extends BasePage{
     private By username_txt = By.id("email");
     private By password_txt = By.id("passwd");
     private By submit_btn = By.id("SubmitLogin");
+
+    public LoginPage navigateToLoginPage(){
+        driver.get(ConfigReader.get("url"));
+        return this;
+    }
 
     public LoginPage clickSignIn(){
         click(SignIn_btn);

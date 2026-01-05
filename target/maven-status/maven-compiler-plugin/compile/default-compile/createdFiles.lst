@@ -1,0 +1,5 @@
+org\pojos\User.class
+org\enums\EnvironmentType.class
+org\enums\BrowserType.class
+org\configReader\ConfigReader.class
+org\pojos\LoginTestData.class

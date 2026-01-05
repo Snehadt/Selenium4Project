@@ -1,24 +1,22 @@
 package com.tests;
 
 import com.driver.DriverFactory;
-import org.configReader.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 
 public class BaseTest {
     protected WebDriver driver;
 
     @BeforeMethod
-    public void setUp(){
-        DriverFactory.initDriver(ConfigReader.getBrowser());
+    public void setUp(Object[] testData){
+        String browser = (String) testData[testData.length-1];
+        DriverFactory.initDriver(browser);
         driver = DriverFactory.getDriver();
-        driver.get(ConfigReader.get("url"));
     }
 
     @AfterMethod(alwaysRun = true)
     public void tearDown(){
-        DriverFactory.quitDriver();
+        //DriverFactory.quitDriver();
     }
 }
