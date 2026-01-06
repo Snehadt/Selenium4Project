@@ -57,8 +57,14 @@ jobs:
       - name: Prepare GitHub Pages content
         if: always()
         run: |
-          mkdir -p public
+          if [ -d "target/site/allure-maven-plugin" ]; then
           cp -r target/site/allure-maven-plugin/* public/
+          elif [ -d "target/site/allure-maven" ]; then
+          cp -r target/site/allure-maven/* public/
+          else
+          echo "❌ Allure report directory not found"
+          exit 1
+          fi
 
       - name: Deploy Allure Report to GitHub Pages
         if: always()
