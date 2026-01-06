@@ -15,8 +15,8 @@ public class LambdaDriverFactory {
 
     public static WebDriver getRemoteDriver(BrowserType browser) {
         try {
-            String username = ConfigReader.get("lt.username");
-            String accessKey = ConfigReader.get("lt.accesskey");
+            String username = System.getenv("LT_USERNAME");
+            String accessKey = System.getenv("LT_ACCESS_KEY");
 
             MutableCapabilities capabilities = new MutableCapabilities();
             String platform = ConfigReader.get("lt.platform");
