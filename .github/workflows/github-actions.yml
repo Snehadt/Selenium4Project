@@ -46,6 +46,12 @@ jobs:
         run: |
           mvn allure:report
 
+      - name: Verify Allure report folder
+        if: always()
+        run: |
+          echo "Listing target/site"
+          ls -R target/site || true
+
       - name: Prepare GitHub Pages content
         if: always()
         run: |
