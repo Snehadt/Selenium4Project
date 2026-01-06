@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.net.URISyntaxException: Illegal character in authority at index 8: https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "29409fe9034a9f67",
+        "parentUid" : "2f1a972bc707771d83d5d85f50c782ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1767704429298,
+          "stop" : 1767704429299,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f1a972bc707771d83d5d85f50c782ca"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
