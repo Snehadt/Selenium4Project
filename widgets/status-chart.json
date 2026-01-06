@@ -1,40 +1,40 @@
 [ {
-  "uid" : "9f9db790a87d2ef2",
+  "uid" : "d7e4b695c0ec0aa5",
   "name" : "verifies the user is able to login",
   "time" : {
-    "start" : 1767712010634,
-    "stop" : 1767712026888,
-    "duration" : 16254
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e3aee8b8a5139649",
-  "name" : "verifies the user is able to login",
-  "time" : {
-    "start" : 1767711990386,
-    "stop" : 1767712006961,
-    "duration" : 16575
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ed9d1fcff170d191",
-  "name" : "verifies the user is able to login",
-  "time" : {
-    "start" : 1767711971508,
-    "stop" : 1767711978073,
-    "duration" : 6565
+    "start" : 1767722015140,
+    "stop" : 1767722021101,
+    "duration" : 5961
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fe1c0216cbbeadde",
+  "uid" : "1c84420706793558",
   "name" : "verifies the user is able to login",
   "time" : {
-    "start" : 1767711980745,
-    "stop" : 1767711986812,
-    "duration" : 6067
+    "start" : 1767722118825,
+    "stop" : 1767722134565,
+    "duration" : 15740
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e067b8cc9630ca9",
+  "name" : "verifies the user is able to login",
+  "time" : {
+    "start" : 1767722095627,
+    "stop" : 1767722111396,
+    "duration" : 15769
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d1b2bdd5662b11",
+  "name" : "verifies the user is able to login",
+  "time" : {
+    "start" : 1767722012319,
+    "stop" : 1767722017724,
+    "duration" : 5405
   },
   "status" : "passed",
   "severity" : "normal"

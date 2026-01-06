@@ -1,57 +1,57 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "verifies the user is able to login",
-    "uid" : "ed9d1fcff170d191",
+    "uid" : "1d1b2bdd5662b11",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1767711971508,
-      "stop" : 1767711978073,
-      "duration" : 6565
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
-  }, {
-    "name" : "verifies the user is able to login",
-    "uid" : "fe1c0216cbbeadde",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1767711980745,
-      "stop" : 1767711986812,
-      "duration" : 6067
+      "start" : 1767722012319,
+      "stop" : 1767722017724,
+      "duration" : 5405
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
   }, {
     "name" : "verifies the user is able to login",
-    "uid" : "e3aee8b8a5139649",
+    "uid" : "d7e4b695c0ec0aa5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1767722015140,
+      "stop" : 1767722021101,
+      "duration" : 5961
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+  }, {
+    "name" : "verifies the user is able to login",
+    "uid" : "1e067b8cc9630ca9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1767711990386,
-      "stop" : 1767712006961,
-      "duration" : 16575
+      "start" : 1767722095627,
+      "stop" : 1767722111396,
+      "duration" : 15769
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
   }, {
     "name" : "verifies the user is able to login",
-    "uid" : "9f9db790a87d2ef2",
+    "uid" : "1c84420706793558",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1767712010634,
-      "stop" : 1767712026888,
-      "duration" : 16254
+      "start" : 1767722118825,
+      "stop" : 1767722134565,
+      "duration" : 15740
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }

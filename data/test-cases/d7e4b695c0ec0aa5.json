@@ -1,12 +1,12 @@
 {
-  "uid" : "fe1c0216cbbeadde",
+  "uid" : "d7e4b695c0ec0aa5",
   "name" : "verifies the user is able to login",
   "fullName" : "com.tests.LoginFlowTest.user_should_login_excel",
-  "historyId" : "f866a112bf788c3306824e6e7930b577",
+  "historyId" : "9876100f8eb6a77ea949045f29dfbef3",
   "time" : {
-    "start" : 1767711980745,
-    "stop" : 1767711986812,
-    "duration" : 6067
+    "start" : 1767722015140,
+    "stop" : 1767722021101,
+    "duration" : 5961
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1767711881158,
-      "stop" : 1767711980743,
-      "duration" : 99585
+      "start" : 1767722002285,
+      "stop" : 1767722015137,
+      "duration" : 12852
     },
     "description" : "",
     "status" : "passed",
@@ -31,8 +31,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1767711986813,
-      "stop" : 1767711986813,
+      "start" : 1767722021103,
+      "stop" : 1767722021103,
       "duration" : 0
     },
     "description" : "",
@@ -68,7 +68,7 @@
     "value" : "runnervmh13bl"
   }, {
     "name" : "thread",
-    "value" : "2225@runnervmh13bl.TestNG-PoolService-3(18)"
+    "value" : "2234@runnervmh13bl.TestNG-PoolService-4(19)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,7 +84,7 @@
     "value" : "User{username='ciyilok237@naqulu.com', password='password123'}"
   }, {
     "name" : "arg1",
-    "value" : "chrome"
+    "value" : "firefox"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fe1c0216cbbeadde.json",
-  "parameterValues" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+  "source" : "d7e4b695c0ec0aa5.json",
+  "parameterValues" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
 }
