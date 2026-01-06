@@ -1,0 +1,61 @@
+name: Selenium Test Automation Framework
+
+on:
+  schedule:
+    - cron: '40 07 * * *'
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        browser: [ chrome, firefox ]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '11'
+          cache: maven
+
+      - name: Install Chrome
+        if: matrix.browser == 'chrome'
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install Firefox
+        if: matrix.browser == 'firefox'
+        uses: browser-actions/setup-firefox@v1
+
+      - name: Verify Browser
+        run: |
+          if [ "${{ matrix.browser }}" = "chrome" ]; then google-chrome --version; fi
+          if [ "${{ matrix.browser }}" = "firefox" ]; then firefox --version; fi
+
+      - name: Run Tests
+        run: mvn clean test -Denv=qa -Dbrowser=${{ matrix.browser }}
+
+      - name: Upload test logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ matrix.browser }}
+          path: logs/
+
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-${{ matrix.browser }}
+          path: target/allure-results
+
+      - name: Test Execution status
+        run: echo "Test Execution complete!"
