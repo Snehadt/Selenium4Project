@@ -40,7 +40,12 @@ public class LambdaDriverFactory {
 
             String hubUrl = "https://" + username + ":" + accessKey + "@hub.lambdatest.com/wd/hub";
             System.out.println("Creating remote");
-            return new RemoteWebDriver(new URL(hubUrl), capabilities);
+            RemoteWebDriver driver = new RemoteWebDriver(new URL(hubUrl), capabilities);
+            // 🔍 Session ID check (VERY IMPORTANT)
+            System.out.println("LambdaTest Session ID = " + driver.getSessionId());
+            System.out.println("Driver class = " + driver.getClass().getName());
+
+            return driver;
 
         } catch (MalformedURLException e) {
             throw new RuntimeException("Failed to initialize LambdaTest driver", e);
