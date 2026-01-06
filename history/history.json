@@ -1,0 +1,102 @@
+{
+  "f866a112bf788c3306824e6e7930b577" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e04de558652bea7",
+      "status" : "skipped",
+      "statusDetails" : "java.net.URISyntaxException: Illegal character in authority at index 8: https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub",
+      "time" : {
+        "start" : 1767710533839,
+        "stop" : 1767710533845,
+        "duration" : 6
+      }
+    } ]
+  },
+  "9876100f8eb6a77ea949045f29dfbef3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3211b5e90d67749a",
+      "status" : "skipped",
+      "statusDetails" : "java.net.URISyntaxException: Illegal character in authority at index 8: https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub",
+      "time" : {
+        "start" : 1767710533839,
+        "stop" : 1767710533843,
+        "duration" : 4
+      }
+    } ]
+  },
+  "3e5a3d5df33437855e0d0e3ed321df46" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "400d945f6bbd4c72",
+      "status" : "skipped",
+      "statusDetails" : "java.net.URISyntaxException: Illegal character in authority at index 8: https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub",
+      "time" : {
+        "start" : 1767710533840,
+        "stop" : 1767710533843,
+        "duration" : 3
+      }
+    } ]
+  },
+  "22f61040b4807705fd8140fffe5aa9b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ececb59717e33712",
+      "status" : "broken",
+      "statusDetails" : "java.net.URISyntaxException: Illegal character in authority at index 8: https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub",
+      "time" : {
+        "start" : 1767710533818,
+        "stop" : 1767710533819,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8e6642c0d93958edc65d7ceea7402696" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1e1fc429921ec96",
+      "status" : "skipped",
+      "statusDetails" : "java.net.URISyntaxException: Illegal character in authority at index 8: https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub",
+      "time" : {
+        "start" : 1767710533839,
+        "stop" : 1767710533844,
+        "duration" : 5
+      }
+    } ]
+  }
+}
