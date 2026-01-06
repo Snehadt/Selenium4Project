@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 2 failed,  5 skipped,  2 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,  4 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -132,17 +132,12 @@
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.tests.LoginFlowTest" class="method navigator-link" hash-for-method="user_should_login_excel(User{username=&#039;ciyilok237@naqulu.com&#039;, password=&#039;password123&#039;}, chrome)">user_should_login_excel(User{username='ciyilok237@naqulu.com', password='password123'}, chrome)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite" title="com.tests.LoginFlowTest" class="method navigator-link" hash-for-method="user_should_login_excel(User{username=&#039;1ciyilok237@naqulu.com&#039;, password=&#039;password123&#039;}, firefox)">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Test_Suite" title="com.tests.LoginFlowTest" class="method navigator-link" hash-for-method="user_should_login_excel(User{username=&#039;1ciyilok237@naqulu.com&#039;, password=&#039;password123&#039;}, chrome)">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, chrome)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.tests.LoginFlowTest" class="method navigator-link" hash-for-method="user_should_login_excel(User{username=&#039;1ciyilok237@naqulu.com&#039;, password=&#039;password123&#039;}, firefox)">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Test_Suite -->
@@ -191,9 +186,9 @@
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34960, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e3889d13-c0dd-428e-9117-e9f968f85f18
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9876, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ecf76cb1-e270-4b8b-90e4-d99912d7d334
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -217,9 +212,9 @@ Session ID: e3889d13-c0dd-428e-9117-e9f968f85f18
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59575}, goog:processID: 33716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59575/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 79b41c55affbbcb3c0f40af2d8c6a309
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8242e36540e41c8619ea25e46b6ba71
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -251,9 +246,9 @@ Session ID: 79b41c55affbbcb3c0f40af2d8c6a309
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49878}, goog:processID: 8104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49878/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 378da80f639de3be2de23159b05c0194
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab72500aef01772bb6543db2b931a19
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -277,9 +272,9 @@ Session ID: 378da80f639de3be2de23159b05c0194
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23300, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0d952ecf-f996-4131-805d-50727ca20314
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2888, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c61cc88d-6bad-40f9-846c-18896d5e1ddd
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -296,37 +291,25 @@ Session ID: 0d952ecf-f996-4131-805d-50727ca20314
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="user_should_login_excel(User{username=&#039;ciyilok237@naqulu.com&#039;, password=&#039;password123&#039;}, chrome)">
-                  </a> <!-- user_should_login_excel(User{username='ciyilok237@naqulu.com', password='password123'}, chrome) -->
+                  <a name="user_should_login_excel(User{username=&#039;1ciyilok237@naqulu.com&#039;, password=&#039;password123&#039;}, firefox)">
+                  </a> <!-- user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox) -->
                   <span class="method-name">user_should_login_excel</span>
-                  <span class="parameters">(User{username='ciyilok237@naqulu.com', password='password123'},chrome)</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=143.0.7499.170)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+                  <span class="parameters">(User{username='1ciyilok237@naqulu.com', password='password123'},firefox)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1afcae1e7ef3d6f0dd1d1abcc022fc5e, clickElement {id=f.DEAEDA2ED309153FE26460D2D81FFBA3.d.013CC061E84E09DE9B25764014B9300F.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49829}, goog:processID: 2472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1afcae1e7ef3d6f0dd1d1abcc022fc5e)] -&gt; class name: login]
-Session ID: 1afcae1e7ef3d6f0dd1d1abcc022fc5e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at com.pages.BasePage.click(BasePage.java:24)
-	at com.pages.LoginPage.clickSignIn(LoginPage.java:28)
-	at com.pages.LoginPage.gotoHomePage(LoginPage.java:40)
-	at com.tests.LoginFlowTest.user_should_login_excel(LoginFlowTest.java:55)
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4876, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2081cc4d-1a93-4ce2-a347-34da7e8efa56
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.pages.BasePage.waitForvisibility(BasePage.java:33)
+	at com.pages.HomePage.getPageTitle(HomePage.java:13)
+	at com.tests.LoginFlowTest.user_should_login_excel(LoginFlowTest.java:58)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-... Removed 13 stack frames
+... Removed 9 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (verifies the user is able to login)                  </em>
@@ -338,51 +321,12 @@ Session ID: 1afcae1e7ef3d6f0dd1d1abcc022fc5e
                   </a> <!-- user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, chrome) -->
                   <span class="method-name">user_should_login_excel</span>
                   <span class="parameters">(User{username='1ciyilok237@naqulu.com', password='password123'},chrome)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1afcae1e7ef3d6f0dd1d1abcc022fc5e, sendKeysToElement {value=[Ljava.lang.CharSequence;@1dab3f56, id=f.DEAEDA2ED309153FE26460D2D81FFBA3.d.4AEFACA70AA0DE8A98C8247C62F1F610.e.34}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49829}, goog:processID: 2472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1afcae1e7ef3d6f0dd1d1abcc022fc5e)] -&gt; id: email]
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:428)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-	at com.pages.BasePage.sendKey(BasePage.java:29)
-	at com.pages.LoginPage.enterUserNamePassword(LoginPage.java:33)
-	at com.pages.LoginPage.gotoHomePage(LoginPage.java:42)
-	at com.tests.LoginFlowTest.user_should_login_excel(LoginFlowTest.java:55)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2798)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	... 3 more
-... Removed 9 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(verifies the user is able to login)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="user_should_login_excel(User{username=&#039;1ciyilok237@naqulu.com&#039;, password=&#039;password123&#039;}, firefox)">
-                  </a> <!-- user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox) -->
-                  <span class="method-name">user_should_login_excel</span>
-                  <span class="parameters">(User{username='1ciyilok237@naqulu.com', password='password123'},firefox)</span>
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8768, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62a5fc7f-da6e-4cfa-a185-aade76ad271c
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 518296cb4d593c19344f89ab04c847b9
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -491,48 +435,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'user_should_login_excel')
 data.setCell(0, 2, 'com.tests.LoginFlowTest')
-data.setCell(0, 3, 201869);
+data.setCell(0, 3, 17608);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'user_should_login_excel')
 data.setCell(1, 2, 'com.tests.LoginFlowTest')
-data.setCell(1, 3, 28864);
+data.setCell(1, 3, 17474);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'user_should_login_excel')
 data.setCell(2, 2, 'com.tests.LoginFlowTest')
-data.setCell(2, 3, 27491);
+data.setCell(2, 3, 17333);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'user_should_login_excel')
 data.setCell(3, 2, 'com.tests.LoginFlowTest')
-data.setCell(3, 3, 27297);
+data.setCell(3, 3, 16861);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'user_should_login_excel')
 data.setCell(4, 2, 'com.tests.LoginFlowTest')
-data.setCell(4, 3, 26151);
+data.setCell(4, 3, 16667);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'user_should_login_excel')
 data.setCell(5, 2, 'com.tests.LoginFlowTest')
-data.setCell(5, 3, 24978);
+data.setCell(5, 3, 16364);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'user_should_login_excel')
 data.setCell(6, 2, 'com.tests.LoginFlowTest')
-data.setCell(6, 3, 22456);
+data.setCell(6, 3, 7749);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'user_should_login_excel')
 data.setCell(7, 2, 'com.tests.LoginFlowTest')
-data.setCell(7, 3, 21725);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'user_should_login_excel')
-data.setCell(8, 2, 'com.tests.LoginFlowTest')
-data.setCell(8, 3, 21009);
+data.setCell(7, 3, 6321);
 window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Test_Suite">
               </div> <!-- times-div-Test_Suite -->
             </div> <!-- times-div -->
@@ -564,112 +504,100 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
+                <span class="method-name">setUp([User{username='ciyilok237@naqulu.com', password='password123'}, chrome])</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
                 <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, chrome])</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, firefox])</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp([User{username='ciyilok237@naqulu.com', password='password123'}, chrome])</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, chrome)</span>
-                <span class="method-start">3586 ms</span>
+                <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox)</span>
+                <span class="method-start">18419 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">user_should_login_excel(User{username='ciyilok237@naqulu.com', password='password123'}, chrome)</span>
-                <span class="method-start">3628 ms</span>
+                <span class="method-start">24679 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, firefox])</span>
+                <span class="method-start">35907 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox)</span>
-                <span class="method-start">8748 ms</span>
+                <span class="method-start">49121 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, chrome)</span>
+                <span class="method-start">63001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67699 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, firefox])</span>
+                <span class="method-start">67708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81073 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, chrome])</span>
+                <span class="method-start">81089 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">user_should_login_excel(User{username='ciyilok237@naqulu.com', password='password123'}, firefox)</span>
-                <span class="method-start">10936 ms</span>
+                <span class="method-start">82983 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29778 ms</span>
+                <span class="method-start">90359 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp([User{username='ciyilok237@naqulu.com', password='password123'}, chrome])</span>
-                <span class="method-start">29784 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">user_should_login_excel(User{username='ciyilok237@naqulu.com', password='password123'}, chrome)</span>
-                <span class="method-start">34179 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">37097 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">40572 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, firefox])</span>
-                <span class="method-start">40577 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox)</span>
-                <span class="method-start">47232 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">57202 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">74258 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, firefox])</span>
-                <span class="method-start">74260 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, firefox)</span>
-                <span class="method-start">79431 ms</span>
+                <span class="method-start">100139 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">107984 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">205900 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, chrome])</span>
-                <span class="method-start">205905 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, chrome)</span>
-                <span class="method-start">208007 ms</span>
+                <span class="method-start">110005 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">235902 ms</span>
+                <span class="method-start">120588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127301 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp([User{username='1ciyilok237@naqulu.com', password='password123'}, chrome])</span>
-                <span class="method-start">235913 ms</span>
+                <span class="method-start">127307 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">user_should_login_excel(User{username='1ciyilok237@naqulu.com', password='password123'}, chrome)</span>
-                <span class="method-start">237964 ms</span>
+                <span class="method-start">157649 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">265917 ms</span>
+                <span class="method-start">175259 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

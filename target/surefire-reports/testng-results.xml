@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="5" ignored="0" total="9" passed="2" failed="2" skipped="0">
+<testng-results retried="4" ignored="0" total="8" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-05T21:27:52 IST" name="Test Suite" finished-at="2026-01-05T21:32:19 IST" duration-ms="266711">
+  <suite started-at="2026-01-06T17:39:57 IST" name="Test Suite" finished-at="2026-01-06T17:42:53 IST" duration-ms="176058">
     <groups>
       <group name="e2e">
         <method signature="LoginFlowTest.user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" name="user_should_login_excel" class="com.tests.LoginFlowTest"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2026-01-05T21:27:52 IST" name="Login Test" finished-at="2026-01-05T21:32:19 IST" duration-ms="266711">
+    <test started-at="2026-01-06T17:39:57 IST" name="Login Test" finished-at="2026-01-06T17:42:53 IST" duration-ms="176058">
       <class name="com.tests.LoginFlowTest">
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:27:53 IST" name="setUp" finished-at="2026-01-05T21:28:04 IST" duration-ms="10926" status="PASS">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:39:58 IST" name="setUp" finished-at="2026-01-06T17:41:21 IST" duration-ms="82979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@27a0a5a2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:39:58 IST" name="setUp" finished-at="2026-01-06T17:40:23 IST" duration-ms="24663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7692cd34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:39:58 IST" name="setUp" finished-at="2026-01-06T17:41:01 IST" duration-ms="62994" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:27:53 IST" name="setUp" finished-at="2026-01-05T21:27:57 IST" duration-ms="3453" status="PASS">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:39:58 IST" name="setUp" finished-at="2026-01-06T17:40:16 IST" duration-ms="18218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,167 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:27:53 IST" name="setUp" finished-at="2026-01-05T21:28:02 IST" duration-ms="8743" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@106faf11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:27:53 IST" name="setUp" finished-at="2026-01-05T21:27:57 IST" duration-ms="3623" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@70f43b45]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:27:57 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:31:19 IST" duration-ms="201869" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User{username='1ciyilok237@naqulu.com', password='password123'}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1afcae1e7ef3d6f0dd1d1abcc022fc5e, sendKeysToElement {value=[Ljava.lang.CharSequence;@1dab3f56, id=f.DEAEDA2ED309153FE26460D2D81FFBA3.d.4AEFACA70AA0DE8A98C8247C62F1F610.e.34}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49829}, goog:processID: 2472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1afcae1e7ef3d6f0dd1d1abcc022fc5e)] -> id: email]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1afcae1e7ef3d6f0dd1d1abcc022fc5e, sendKeysToElement {value=[Ljava.lang.CharSequence;@1dab3f56, id=f.DEAEDA2ED309153FE26460D2D81FFBA3.d.4AEFACA70AA0DE8A98C8247C62F1F610.e.34}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49829}, goog:processID: 2472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1afcae1e7ef3d6f0dd1d1abcc022fc5e)] -> id: email]
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:428)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at com.pages.BasePage.sendKey(BasePage.java:29)
-at com.pages.LoginPage.enterUserNamePassword(LoginPage.java:33)
-at com.pages.LoginPage.gotoHomePage(LoginPage.java:42)
-at com.tests.LoginFlowTest.user_should_login_excel(LoginFlowTest.java:55)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2798)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user_should_login_excel -->
-        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:27:57 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:28:18 IST" duration-ms="21725" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User{username='ciyilok237@naqulu.com', password='password123'}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=143.0.7499.170)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1afcae1e7ef3d6f0dd1d1abcc022fc5e, clickElement {id=f.DEAEDA2ED309153FE26460D2D81FFBA3.d.013CC061E84E09DE9B25764014B9300F.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49829}, goog:processID: 2472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1afcae1e7ef3d6f0dd1d1abcc022fc5e)] -> class name: login]
-Session ID: 1afcae1e7ef3d6f0dd1d1abcc022fc5e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=143.0.7499.170)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1afcae1e7ef3d6f0dd1d1abcc022fc5e, clickElement {id=f.DEAEDA2ED309153FE26460D2D81FFBA3.d.013CC061E84E09DE9B25764014B9300F.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49829}, goog:processID: 2472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1afcae1e7ef3d6f0dd1d1abcc022fc5e)] -> class name: login]
-Session ID: 1afcae1e7ef3d6f0dd1d1abcc022fc5e
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.pages.BasePage.click(BasePage.java:24)
-at com.pages.LoginPage.clickSignIn(LoginPage.java:28)
-at com.pages.LoginPage.gotoHomePage(LoginPage.java:40)
-at com.tests.LoginFlowTest.user_should_login_excel(LoginFlowTest.java:55)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user_should_login_excel -->
-        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:02 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:28:31 IST" duration-ms="28864" status="SKIP">
+        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:40:16 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:40:33 IST" duration-ms="16364" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -210,17 +72,17 @@ at java.base/java.lang.Thread.run(Thread.java:829)
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8768, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62a5fc7f-da6e-4cfa-a185-aade76ad271c]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4876, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2081cc4d-1a93-4ce2-a347-34da7e8efa56]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8768, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62a5fc7f-da6e-4cfa-a185-aade76ad271c
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4876, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2081cc4d-1a93-4ce2-a347-34da7e8efa56
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -244,38 +106,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_should_login_excel -->
-        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:04 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:28:25 IST" duration-ms="21009" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User{username='ciyilok237@naqulu.com', password='password123'}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user_should_login_excel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:23 IST" name="tearDown" finished-at="2026-01-05T21:28:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:23 IST" name="setUp" finished-at="2026-01-05T21:28:27 IST" duration-ms="4393" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@70f43b45]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:27 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:28:50 IST" duration-ms="22456" status="PASS">
+        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:40:23 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:40:30 IST" duration-ms="7749" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,26 +122,26 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_should_login_excel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:30 IST" name="tearDown" finished-at="2026-01-05T21:28:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:40:31 IST" name="tearDown" finished-at="2026-01-06T17:40:31 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:34 IST" name="tearDown" finished-at="2026-01-05T21:28:34 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:40:34 IST" name="tearDown" finished-at="2026-01-06T17:40:34 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:34 IST" name="setUp" finished-at="2026-01-05T21:28:40 IST" duration-ms="6632" status="PASS">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:40:34 IST" name="setUp" finished-at="2026-01-06T17:40:47 IST" duration-ms="13212" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@106faf11]]>
+                <![CDATA[[Ljava.lang.Object;@32c0915e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:40 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:29:05 IST" duration-ms="24978" status="SKIP">
+        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:40:47 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:41:05 IST" duration-ms="17474" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -328,17 +159,17 @@ at java.base/java.lang.Thread.run(Thread.java:829)
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23300, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0d952ecf-f996-4131-805d-50727ca20314]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2888, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c61cc88d-6bad-40f9-846c-18896d5e1ddd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23300, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0d952ecf-f996-4131-805d-50727ca20314
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2888, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c61cc88d-6bad-40f9-846c-18896d5e1ddd
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -362,26 +193,109 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_should_login_excel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:28:50 IST" name="tearDown" finished-at="2026-01-05T21:28:50 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:29:07 IST" name="tearDown" finished-at="2026-01-05T21:29:07 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:29:07 IST" name="setUp" finished-at="2026-01-05T21:29:13 IST" duration-ms="5162" status="PASS">
+        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:01 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:41:19 IST" duration-ms="17608" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@106faf11]]>
+                <![CDATA[User{username='1ciyilok237@naqulu.com', password='password123'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab72500aef01772bb6543db2b931a19]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab72500aef01772bb6543db2b931a19
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.pages.BasePage.waitForvisibility(BasePage.java:33)
+at com.pages.HomePage.getPageTitle(HomePage.java:13)
+at com.tests.LoginFlowTest.user_should_login_excel(LoginFlowTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_login_excel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:06 IST" name="tearDown" finished-at="2026-01-06T17:41:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:06 IST" name="setUp" finished-at="2026-01-06T17:41:38 IST" duration-ms="32417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@32c0915e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:29:13 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:29:39 IST" duration-ms="26151" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:19 IST" name="tearDown" finished-at="2026-01-06T17:41:19 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:19 IST" name="setUp" finished-at="2026-01-06T17:41:48 IST" duration-ms="28912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@33aa93c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:21 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:41:27 IST" duration-ms="6321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User{username='ciyilok237@naqulu.com', password='password123'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_login_excel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:28 IST" name="tearDown" finished-at="2026-01-06T17:41:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:38 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:41:55 IST" duration-ms="17333" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -399,17 +313,17 @@ at java.base/java.lang.Thread.run(Thread.java:829)
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34960, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e3889d13-c0dd-428e-9117-e9f968f85f18]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9876, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ecf76cb1-e270-4b8b-90e4-d99912d7d334]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34960, moz:profile: C:\Users\SNEHAD~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e3889d13-c0dd-428e-9117-e9f968f85f18
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9876, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ecf76cb1-e270-4b8b-90e4-d99912d7d334
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -433,26 +347,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_should_login_excel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:29:41 IST" name="tearDown" finished-at="2026-01-05T21:29:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:31:19 IST" name="tearDown" finished-at="2026-01-05T21:31:19 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:31:19 IST" name="setUp" finished-at="2026-01-05T21:31:21 IST" duration-ms="2100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@32c0915e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:31:21 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:31:49 IST" duration-ms="27491" status="SKIP">
+        <test-method retried="true" signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:48 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:42:05 IST" duration-ms="16861" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -470,17 +365,17 @@ at java.base/java.lang.Thread.run(Thread.java:829)
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49878}, goog:processID: 8104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49878/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 378da80f639de3be2de23159b05c0194]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 518296cb4d593c19344f89ab04c847b9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49878}, goog:processID: 8104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49878/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 378da80f639de3be2de23159b05c0194
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 518296cb4d593c19344f89ab04c847b9
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -504,22 +399,26 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_should_login_excel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:31:49 IST" name="tearDown" finished-at="2026-01-05T21:31:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:41:59 IST" name="tearDown" finished-at="2026-01-06T17:41:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:31:49 IST" name="setUp" finished-at="2026-01-05T21:31:51 IST" duration-ms="2049" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:42:05 IST" name="tearDown" finished-at="2026-01-06T17:42:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:42:05 IST" name="setUp" finished-at="2026-01-06T17:42:36 IST" duration-ms="30339" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@32c0915e]]>
+                <![CDATA[[Ljava.lang.Object;@33aa93c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:31:51 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-05T21:32:18 IST" duration-ms="27297" status="FAIL">
+        <test-method signature="user_should_login_excel(org.pojos.User,java.lang.String)[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:42:36 IST" name="user_should_login_excel" description="verifies the user is able to login" data-provider="LoginExcelWithBrowser" finished-at="2026-01-06T17:42:52 IST" duration-ms="16667" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -537,17 +436,17 @@ at java.base/java.lang.Thread.run(Thread.java:829)
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59575}, goog:processID: 33716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59575/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 79b41c55affbbcb3c0f40af2d8c6a309]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8242e36540e41c8619ea25e46b6ba71]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SNEHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59575}, goog:processID: 33716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59575/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 79b41c55affbbcb3c0f40af2d8c6a309
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8242e36540e41c8619ea25e46b6ba71
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.pages.BasePage.waitForvisibility(BasePage.java:33)
@@ -571,7 +470,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_should_login_excel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-05T21:32:19 IST" name="tearDown" finished-at="2026-01-05T21:32:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginFlowTest@770d0ea6]" started-at="2026-01-06T17:42:53 IST" name="tearDown" finished-at="2026-01-06T17:42:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
