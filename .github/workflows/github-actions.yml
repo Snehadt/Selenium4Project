@@ -46,7 +46,7 @@ jobs:
       - name: Generate Allure report
         if: always()
         run: |
-          mvn allure:report
+          mvn io.qameta.allure:allure-maven:report
 
       - name: Verify Allure report folder
         if: always()
