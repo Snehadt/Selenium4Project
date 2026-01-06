@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Jan 06 15:06:50 UTC 2026","Tue Jan 06 15:07:06 UTC 2026","16254","Test Suite","Login Test","com.tests.LoginFlowTest","com.tests.LoginFlowTest","user_should_login_excel","verifies the user is able to login",""
+"broken","Tue Jan 06 15:06:30 UTC 2026","Tue Jan 06 15:06:46 UTC 2026","16575","Test Suite","Login Test","com.tests.LoginFlowTest","com.tests.LoginFlowTest","user_should_login_excel","verifies the user is able to login",""
+"passed","Tue Jan 06 15:06:11 UTC 2026","Tue Jan 06 15:06:18 UTC 2026","6565","Test Suite","Login Test","com.tests.LoginFlowTest","com.tests.LoginFlowTest","user_should_login_excel","verifies the user is able to login",""
+"passed","Tue Jan 06 15:06:20 UTC 2026","Tue Jan 06 15:06:26 UTC 2026","6067","Test Suite","Login Test","com.tests.LoginFlowTest","com.tests.LoginFlowTest","user_should_login_excel","verifies the user is able to login",""

@@ -1,0 +1,80 @@
+{
+  "f866a112bf788c3306824e6e7930b577" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe1c0216cbbeadde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1767711980745,
+        "stop" : 1767711986812,
+        "duration" : 6067
+      }
+    } ]
+  },
+  "9876100f8eb6a77ea949045f29dfbef3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed9d1fcff170d191",
+      "status" : "passed",
+      "time" : {
+        "start" : 1767711971508,
+        "stop" : 1767711978073,
+        "duration" : 6565
+      }
+    } ]
+  },
+  "3e5a3d5df33437855e0d0e3ed321df46" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3aee8b8a5139649",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4592, moz:profile: C:\\Users\\ltuser\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ea35e955-3070-4ce5-a564-84b5b8a25a73",
+      "time" : {
+        "start" : 1767711990386,
+        "stop" : 1767712006961,
+        "duration" : 16575
+      }
+    } ]
+  },
+  "8e6642c0d93958edc65d7ceea7402696" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f9db790a87d2ef2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 673548d97144ced96c607e7603a5ebbd",
+      "time" : {
+        "start" : 1767712010634,
+        "stop" : 1767712026888,
+        "duration" : 16254
+      }
+    } ]
+  }
+}

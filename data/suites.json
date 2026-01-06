@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test Suite",
+    "children" : [ {
+      "name" : "Login Test",
+      "children" : [ {
+        "name" : "com.tests.LoginFlowTest",
+        "children" : [ {
+          "name" : "verifies the user is able to login",
+          "uid" : "ed9d1fcff170d191",
+          "parentUid" : "b257638e64d31c1e4a63230a2c3b1cea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1767711971508,
+            "stop" : 1767711978073,
+            "duration" : 6565
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+        }, {
+          "name" : "verifies the user is able to login",
+          "uid" : "fe1c0216cbbeadde",
+          "parentUid" : "b257638e64d31c1e4a63230a2c3b1cea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1767711980745,
+            "stop" : 1767711986812,
+            "duration" : 6067
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+        }, {
+          "name" : "verifies the user is able to login",
+          "uid" : "e3aee8b8a5139649",
+          "parentUid" : "b257638e64d31c1e4a63230a2c3b1cea",
+          "status" : "broken",
+          "time" : {
+            "start" : 1767711990386,
+            "stop" : 1767712006961,
+            "duration" : 16575
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+        }, {
+          "name" : "verifies the user is able to login",
+          "uid" : "9f9db790a87d2ef2",
+          "parentUid" : "b257638e64d31c1e4a63230a2c3b1cea",
+          "status" : "broken",
+          "time" : {
+            "start" : 1767712010634,
+            "stop" : 1767712026888,
+            "duration" : 16254
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+        } ],
+        "uid" : "b257638e64d31c1e4a63230a2c3b1cea"
+      } ],
+      "uid" : "ffec64c5c3d475111f430d72c032dc24"
+    } ],
+    "uid" : "70f4612f25dd624e3fa5910864552138"
+  } ]
+}
