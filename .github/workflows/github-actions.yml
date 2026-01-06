@@ -39,7 +39,9 @@ jobs:
         run: |
           mvn clean test \
           -Denv=lambda \
-          -Dbrowser="chrome,firefox"
+          -Dbrowser="chrome,firefox" \
+          -Dlt.username=${{ secrets.LT_USERNAME }} \
+          -Dlt.accesskey=${{ secrets.LT_ACCESS_KEY }}
 
       - name: Generate Allure report
         if: always()
