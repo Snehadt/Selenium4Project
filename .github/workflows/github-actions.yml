@@ -1,5 +1,8 @@
 name: LambdaTest Cross Browser Allure Run
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ "master" ]
@@ -53,5 +56,6 @@ jobs:
         if: always()
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: public
