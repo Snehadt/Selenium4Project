@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.tests.LoginFlowTest",
+    "children" : [ {
+      "name" : "setUp",
+      "uid" : "6b83b9f631d0f220",
+      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
+      "status" : "broken",
+      "time" : {
+        "start" : 1767707226356,
+        "stop" : 1767707226356,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "user_should_login_excel",
+      "uid" : "643b067cb8a3aa6f",
+      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1767707226370,
+        "stop" : 1767707226377,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+    }, {
+      "name" : "user_should_login_excel",
+      "uid" : "13d8b3301bec3c6d",
+      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1767707226371,
+        "stop" : 1767707226377,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+    }, {
+      "name" : "user_should_login_excel",
+      "uid" : "bc656fd7ce7b7f7b",
+      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1767707226372,
+        "stop" : 1767707226379,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+    }, {
+      "name" : "user_should_login_excel",
+      "uid" : "87d0bd4973463517",
+      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1767707226373,
+        "stop" : 1767707226376,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+    } ],
+    "uid" : "com.tests.LoginFlowTest"
+  } ],
+  "name" : "packages"
+}

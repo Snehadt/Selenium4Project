@@ -1,0 +1,129 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "runnervmh13bl",
+    "children" : [ {
+      "name" : "2245@runnervmh13bl.TestNG-PoolService-1(16)",
+      "children" : [ {
+        "name" : "verifies the user is able to login",
+        "uid" : "87d0bd4973463517",
+        "parentUid" : "6ba2b2605a661542d776bfb4a690977d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1767707226373,
+          "stop" : 1767707226376,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "e34ed2733474ebc",
+        "parentUid" : "6ba2b2605a661542d776bfb4a690977d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1767707226354,
+          "stop" : 1767707226354,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ba2b2605a661542d776bfb4a690977d"
+    }, {
+      "name" : "2245@runnervmh13bl.TestNG-PoolService-3(18)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "3bc754da36a88d25",
+        "parentUid" : "0e8c76a588359aeed70e3c4d72b8a21d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1767707226353,
+          "stop" : 1767707226356,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifies the user is able to login",
+        "uid" : "bc656fd7ce7b7f7b",
+        "parentUid" : "0e8c76a588359aeed70e3c4d72b8a21d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1767707226372,
+          "stop" : 1767707226379,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+      } ],
+      "uid" : "0e8c76a588359aeed70e3c4d72b8a21d"
+    }, {
+      "name" : "2245@runnervmh13bl.TestNG-PoolService-2(17)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "99f4b752a771d462",
+        "parentUid" : "5a4ab6928d2325e6c9f5901a834dda08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1767707226353,
+          "stop" : 1767707226354,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifies the user is able to login",
+        "uid" : "643b067cb8a3aa6f",
+        "parentUid" : "5a4ab6928d2325e6c9f5901a834dda08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1767707226370,
+          "stop" : 1767707226377,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+      } ],
+      "uid" : "5a4ab6928d2325e6c9f5901a834dda08"
+    }, {
+      "name" : "2245@runnervmh13bl.TestNG-PoolService-4(19)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "6b83b9f631d0f220",
+        "parentUid" : "0f5440e0fc5a89fac4073d3a58806489",
+        "status" : "broken",
+        "time" : {
+          "start" : 1767707226356,
+          "stop" : 1767707226356,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifies the user is able to login",
+        "uid" : "13d8b3301bec3c6d",
+        "parentUid" : "0f5440e0fc5a89fac4073d3a58806489",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1767707226371,
+          "stop" : 1767707226377,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+      } ],
+      "uid" : "0f5440e0fc5a89fac4073d3a58806489"
+    } ],
+    "uid" : "ea2892d3dd212499d59fe7eaa57d5ec0"
+  } ],
+  "name" : "timeline"
+}

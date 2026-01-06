@@ -1,0 +1,51 @@
+[ {
+  "uid" : "bc656fd7ce7b7f7b",
+  "name" : "verifies the user is able to login",
+  "time" : {
+    "start" : 1767707226372,
+    "stop" : 1767707226379,
+    "duration" : 7
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "13d8b3301bec3c6d",
+  "name" : "verifies the user is able to login",
+  "time" : {
+    "start" : 1767707226371,
+    "stop" : 1767707226377,
+    "duration" : 6
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "87d0bd4973463517",
+  "name" : "verifies the user is able to login",
+  "time" : {
+    "start" : 1767707226373,
+    "stop" : 1767707226376,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6b83b9f631d0f220",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1767707226356,
+    "stop" : 1767707226356,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "643b067cb8a3aa6f",
+  "name" : "verifies the user is able to login",
+  "time" : {
+    "start" : 1767707226370,
+    "stop" : 1767707226377,
+    "duration" : 7
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
