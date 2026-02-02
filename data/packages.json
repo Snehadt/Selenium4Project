@@ -4,52 +4,52 @@
     "name" : "com.tests.LoginFlowTest",
     "children" : [ {
       "name" : "user_should_login_excel",
-      "uid" : "1d1b2bdd5662b11",
-      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
-      "status" : "passed",
-      "time" : {
-        "start" : 1767722012319,
-        "stop" : 1767722017724,
-        "duration" : 5405
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
-    }, {
-      "name" : "user_should_login_excel",
-      "uid" : "d7e4b695c0ec0aa5",
-      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
-      "status" : "passed",
-      "time" : {
-        "start" : 1767722015140,
-        "stop" : 1767722021101,
-        "duration" : 5961
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
-    }, {
-      "name" : "user_should_login_excel",
-      "uid" : "1e067b8cc9630ca9",
+      "uid" : "681c08b3dd1eb2d7",
       "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
       "status" : "broken",
       "time" : {
-        "start" : 1767722095627,
-        "stop" : 1767722111396,
-        "duration" : 15769
+        "start" : 1770021191507,
+        "stop" : 1770021205315,
+        "duration" : 13808
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
     }, {
       "name" : "user_should_login_excel",
-      "uid" : "1c84420706793558",
+      "uid" : "c54edbef8d69cec7",
       "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
       "status" : "broken",
       "time" : {
-        "start" : 1767722118825,
-        "stop" : 1767722134565,
-        "duration" : 15740
+        "start" : 1770021191537,
+        "stop" : 1770021204901,
+        "duration" : 13364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+    }, {
+      "name" : "user_should_login_excel",
+      "uid" : "1f3eb94a0378e31e",
+      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
+      "status" : "broken",
+      "time" : {
+        "start" : 1770021225246,
+        "stop" : 1770021240397,
+        "duration" : 15151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+    }, {
+      "name" : "user_should_login_excel",
+      "uid" : "785b0f5c9b3f765d",
+      "parentUid" : "a3f7e905d0dd2bbc8d45ccf987bfa500",
+      "status" : "broken",
+      "time" : {
+        "start" : 1770021229095,
+        "stop" : 1770021242649,
+        "duration" : 13554
       },
       "flaky" : false,
       "newFailed" : false,

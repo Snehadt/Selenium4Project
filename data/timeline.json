@@ -1,129 +1,77 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "runnervmh13bl",
+    "name" : "runnervmkj6or",
     "children" : [ {
-      "name" : "2234@runnervmh13bl.TestNG-PoolService-3(18)",
+      "name" : "2324@runnervmkj6or.TestNG-PoolService-1(16)",
       "children" : [ {
         "name" : "verifies the user is able to login",
-        "uid" : "1d1b2bdd5662b11",
-        "parentUid" : "ea7ec021f3db8cf5e10b23797f4326e5",
-        "status" : "passed",
+        "uid" : "785b0f5c9b3f765d",
+        "parentUid" : "ed8193549b183ab9d2a35fb73ac16791",
+        "status" : "broken",
         "time" : {
-          "start" : 1767722012319,
-          "stop" : 1767722017724,
-          "duration" : 5405
+          "start" : 1770021229095,
+          "stop" : 1770021242649,
+          "duration" : 13554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+      } ],
+      "uid" : "ed8193549b183ab9d2a35fb73ac16791"
+    }, {
+      "name" : "2324@runnervmkj6or.TestNG-PoolService-3(18)",
+      "children" : [ {
+        "name" : "verifies the user is able to login",
+        "uid" : "1f3eb94a0378e31e",
+        "parentUid" : "454c95bece294c17019346f82a3b420b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1770021225246,
+          "stop" : 1770021240397,
+          "duration" : 15151
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
       } ],
-      "uid" : "ea7ec021f3db8cf5e10b23797f4326e5"
+      "uid" : "454c95bece294c17019346f82a3b420b"
     }, {
-      "name" : "2234@runnervmh13bl.TestNG-PoolService-1(16)",
+      "name" : "2324@runnervmkj6or.TestNG-PoolService-2(17)",
       "children" : [ {
         "name" : "verifies the user is able to login",
-        "uid" : "834b3c536ca5aa1e",
-        "parentUid" : "f7e0aea067b34e08bb4abcc8abab0364",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1767722041635,
-          "stop" : 1767722056896,
-          "duration" : 15261
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
-      }, {
-        "name" : "verifies the user is able to login",
-        "uid" : "a63422ac9a9e7bd7",
-        "parentUid" : "f7e0aea067b34e08bb4abcc8abab0364",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1767722074161,
-          "stop" : 1767722089356,
-          "duration" : 15195
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
-      }, {
-        "name" : "verifies the user is able to login",
-        "uid" : "1c84420706793558",
-        "parentUid" : "f7e0aea067b34e08bb4abcc8abab0364",
+        "uid" : "681c08b3dd1eb2d7",
+        "parentUid" : "50282431a3c9a6090ff9cd1f3fb43542",
         "status" : "broken",
         "time" : {
-          "start" : 1767722118825,
-          "stop" : 1767722134565,
-          "duration" : 15740
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
-      } ],
-      "uid" : "f7e0aea067b34e08bb4abcc8abab0364"
-    }, {
-      "name" : "2234@runnervmh13bl.TestNG-PoolService-2(17)",
-      "children" : [ {
-        "name" : "verifies the user is able to login",
-        "uid" : "461759fd0d24a29e",
-        "parentUid" : "261678de043bcac747c741b3e584e88b",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1767722064454,
-          "stop" : 1767722080484,
-          "duration" : 16030
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
-      }, {
-        "name" : "verifies the user is able to login",
-        "uid" : "c9cb17c8178285b",
-        "parentUid" : "261678de043bcac747c741b3e584e88b",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1767722037303,
-          "stop" : 1767722052439,
-          "duration" : 15136
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
-      }, {
-        "name" : "verifies the user is able to login",
-        "uid" : "1e067b8cc9630ca9",
-        "parentUid" : "261678de043bcac747c741b3e584e88b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1767722095627,
-          "stop" : 1767722111396,
-          "duration" : 15769
+          "start" : 1770021191507,
+          "stop" : 1770021205315,
+          "duration" : 13808
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
       } ],
-      "uid" : "261678de043bcac747c741b3e584e88b"
+      "uid" : "50282431a3c9a6090ff9cd1f3fb43542"
     }, {
-      "name" : "2234@runnervmh13bl.TestNG-PoolService-4(19)",
+      "name" : "2324@runnervmkj6or.TestNG-PoolService-4(19)",
       "children" : [ {
         "name" : "verifies the user is able to login",
-        "uid" : "d7e4b695c0ec0aa5",
-        "parentUid" : "4a4dcb59171095a9d92aaf6323905598",
-        "status" : "passed",
+        "uid" : "c54edbef8d69cec7",
+        "parentUid" : "108a3ab12301f770fb1257b2f264fd3e",
+        "status" : "broken",
         "time" : {
-          "start" : 1767722015140,
-          "stop" : 1767722021101,
-          "duration" : 5961
+          "start" : 1770021191537,
+          "stop" : 1770021204901,
+          "duration" : 13364
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
       } ],
-      "uid" : "4a4dcb59171095a9d92aaf6323905598"
+      "uid" : "108a3ab12301f770fb1257b2f264fd3e"
     } ],
-    "uid" : "ea2892d3dd212499d59fe7eaa57d5ec0"
+    "uid" : "59a07af8ea32b9927a7cbfea979b2f67"
   } ],
   "name" : "timeline"
 }

@@ -3,39 +3,73 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5184, moz:profile: C:\\Users\\ltuser\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 39e88c78-57da-467e-8ebf-b1477f820a59",
+      "name" : "Expected condition failed: waiting for element to be clickable: By.className: login (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6816, moz:profile: C:\\Users\\ltuser\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e60b193d-4849-4aa0-aeb5-d0215a1e5772",
       "children" : [ {
         "name" : "verifies the user is able to login",
-        "uid" : "1e067b8cc9630ca9",
-        "parentUid" : "06d3d44cb270ecc7bb734e3132fdabb9",
+        "uid" : "681c08b3dd1eb2d7",
+        "parentUid" : "561aaee7271f03b147cb31d5890ab04c",
         "status" : "broken",
         "time" : {
-          "start" : 1767722095627,
-          "stop" : 1767722111396,
-          "duration" : 15769
+          "start" : 1770021191507,
+          "stop" : 1770021205315,
+          "duration" : 13808
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "firefox" ]
       } ],
-      "uid" : "06d3d44cb270ecc7bb734e3132fdabb9"
+      "uid" : "561aaee7271f03b147cb31d5890ab04c"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.className: account (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 67718c5bfc8625121c6daba43afceaea",
+      "name" : "Expected condition failed: waiting for element to be clickable: By.className: login (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5256, moz:profile: C:\\Users\\ltuser\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 111d2ed4-5328-42d4-84ad-3c08e72d1e3e",
       "children" : [ {
         "name" : "verifies the user is able to login",
-        "uid" : "1c84420706793558",
-        "parentUid" : "8692c9c6bd2d002b98d4fef4e11f4acd",
+        "uid" : "c54edbef8d69cec7",
+        "parentUid" : "575028d21374d5348f2c2145189c59fc",
         "status" : "broken",
         "time" : {
-          "start" : 1767722118825,
-          "stop" : 1767722134565,
-          "duration" : 15740
+          "start" : 1770021191537,
+          "stop" : 1770021204901,
+          "duration" : 13364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "firefox" ]
+      } ],
+      "uid" : "575028d21374d5348f2c2145189c59fc"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.className: login (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 34d3571fe0bd33a462572b16c14bf19d",
+      "children" : [ {
+        "name" : "verifies the user is able to login",
+        "uid" : "1f3eb94a0378e31e",
+        "parentUid" : "d93ea993c97d51ce0b3c6f3f0a0d6fd6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1770021225246,
+          "stop" : 1770021240397,
+          "duration" : 15151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{username='ciyilok237@naqulu.com', password='password123'}", "chrome" ]
+      } ],
+      "uid" : "d93ea993c97d51ce0b3c6f3f0a0d6fd6"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.className: login (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '11.0.29'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.22 (23382a5a87b8..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e26343edf08bc0537f1660163de35e6a",
+      "children" : [ {
+        "name" : "verifies the user is able to login",
+        "uid" : "785b0f5c9b3f765d",
+        "parentUid" : "7077273642a88f77ed887f585389c682",
+        "status" : "broken",
+        "time" : {
+          "start" : 1770021229095,
+          "stop" : 1770021242649,
+          "duration" : 13554
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "User{username='1ciyilok237@naqulu.com', password='password123'}", "chrome" ]
       } ],
-      "uid" : "8692c9c6bd2d002b98d4fef4e11f4acd"
+      "uid" : "7077273642a88f77ed887f585389c682"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
