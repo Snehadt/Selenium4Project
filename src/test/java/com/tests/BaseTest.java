@@ -7,10 +7,15 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
     protected WebDriver driver;
-
+    String browser = "";
     @BeforeMethod
     public void setUp(Object[] testData){
-        String browser = (String) testData[testData.length-1];
+        if (testData != null
+                && testData.length > 0
+                && testData[testData.length - 1] instanceof String) {
+
+            browser = (String) testData[testData.length - 1];
+        }
         DriverFactory.initDriver(browser);
         driver = DriverFactory.getDriver();
     }

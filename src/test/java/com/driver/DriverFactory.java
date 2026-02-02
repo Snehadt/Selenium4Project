@@ -22,7 +22,6 @@ public class DriverFactory {
             WebDriver webDriver = ConfigReader.get("env").equalsIgnoreCase("lambda")
                     ? LambdaDriverFactory.getRemoteDriver(browser)
                     : LocalDriverFactory.getLocalDriver(browser);
-
             driver.set(webDriver);
             driver.get().manage().window().setSize(new Dimension(1920, 1080));
         }

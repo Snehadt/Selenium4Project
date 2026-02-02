@@ -41,11 +41,20 @@ public class BrowserWrappedDataProvider {
 
     /* ---------- EXCEL ---------- */
 
-    @DataProvider(name = "LoginExcelWithBrowser", parallel = true)
-    public static Iterator<Object[]> loginExcelWithBrowser() {
+    @DataProvider(name = "LoginExcel_ValidLoginUsers", parallel = true)
+    public static Iterator<Object[]> validLoginUsers() {
 
         Iterator<Object[]> baseData =
-                new LoginDataProvider().excelDataProvider();
+                new LoginDataProvider().excelDataProvider("login_valid");
+
+        return wrapIterator(baseData);
+    }
+
+    @DataProvider(name = "LoginExcel_AllLoginUsers", parallel = true)
+    public static Iterator<Object[]> allLoginUsers() {
+
+        Iterator<Object[]> baseData =
+                new LoginDataProvider().excelDataProvider("login_all");
 
         return wrapIterator(baseData);
     }
@@ -68,18 +77,4 @@ public class BrowserWrappedDataProvider {
         }
         return finalData.iterator();
     }
-
-    /*private static Iterator<Object[]> wrapSingleObjectIterator(Iterator<?> baseData) {
-
-        List<Object[]> finalData = new ArrayList<>();
-        List<String> browsers = getBrowsers();
-
-        while (baseData.hasNext()) {
-            Object data = baseData.next();
-            for (String browser : browsers) {
-                finalData.add(new Object[]{data, browser});
-            }
-        }
-        return finalData.iterator();
-    }*/
 }

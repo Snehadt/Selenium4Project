@@ -15,7 +15,7 @@ import java.util.List;
 
 public class ExcelDataUtility {
 
-    public static Iterator<User> excelReader(String filename){
+    public static Iterator<User> excelReader(String filename, String sheetName){
         File excelFile;
         XSSFWorkbook xssfWorkbook;
         Iterator<Row> rowIterator;
@@ -27,7 +27,7 @@ public class ExcelDataUtility {
         excelFile = new File(System.getProperty("user.dir") + "/src/test/resources/testData/" + filename);
         try {
             xssfWorkbook = new XSSFWorkbook(excelFile);
-            XSSFSheet xssfSheet = xssfWorkbook.getSheet("logindata");
+            XSSFSheet xssfSheet = xssfWorkbook.getSheet(sheetName);
             rowIterator = xssfSheet.iterator();
             rowIterator.next();
             ll = new ArrayList<>();

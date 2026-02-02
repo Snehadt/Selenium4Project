@@ -9,7 +9,7 @@
     <classes>
       <class name="com.tests.LoginFlowTest">
         <methods>
-          <include name="user_should_login_excel" invocation-numbers="0 1"/>
+          <include name="user_should_login_excel" invocation-numbers="1"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

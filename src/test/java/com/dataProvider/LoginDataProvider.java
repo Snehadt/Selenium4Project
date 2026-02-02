@@ -32,10 +32,9 @@ public class LoginDataProvider {
         return wrappedData.iterator();
     }
 
-    @DataProvider(name = "LoginExcelDataProvider")
-    public Iterator<Object[]> excelDataProvider(){
+    public Iterator<Object[]> excelDataProvider(String sheetName){
         Iterator<User> userIterator =
-                ExcelDataUtility.excelReader("login-excel.xlsx");
+                ExcelDataUtility.excelReader("login-excel.xlsx",sheetName);
 
         List<Object[]> wrappedData = new ArrayList<>();
 
